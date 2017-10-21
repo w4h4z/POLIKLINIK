@@ -1,0 +1,16 @@
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\bin\Debug\POLIKLINIK.exe.config
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\bin\Debug\POLIKLINIK.exe
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\bin\Debug\POLIKLINIK.pdb
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\bin\Debug\POLIKLINIK.xml
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.Admin_Nav.resources
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.Login.resources
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.Resources.resources
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.vbproj.GenerateResource.Cache
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.exe
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.xml
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.pdb
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.vbprojResolveAssemblyReference.cache
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\POLIKLINIK.Recapt.resources
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\RdlCompile.cache
+D:\New folder (2)\POLIKLINIK\POLIKLINIK\obj\Debug\RdlCompile.compiled

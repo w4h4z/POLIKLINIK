@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="POLIKLINIKDataSet2" targetNamespace="http://tempuri.org/POLIKLINIKDataSet2.xsd" xmlns:mstns="http://tempuri.org/POLIKLINIKDataSet2.xsd" xmlns="http://tempuri.org/POLIKLINIKDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="POLIKLINIKConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="POLIKLINIKConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.POLIKLINIK.My.MySettings.GlobalReference.Default.POLIKLINIKConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JadwalDokterPoliTableAdapter" GeneratorDataComponentClassName="JadwalDokterPoliTableAdapter" Name="JadwalDokterPoli" UserDataComponentName="JadwalDokterPoliTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="POLIKLINIKConnectionString (MySettings)" DbObjectName="POLIKLINIK.dbo.JadwalDokterPoli" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT KodeDokter, KodePoli, NmDokter, AlmDokter, TelpDokter, KodeJadwal, Hari, JamMulai, JamSelesai, NamaPoli FROM dbo.JadwalDokterPoli</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="KodeDokter" DataSetColumn="KodeDokter" />
+              <Mapping SourceColumn="KodePoli" DataSetColumn="KodePoli" />
+              <Mapping SourceColumn="NmDokter" DataSetColumn="NmDokter" />
+              <Mapping SourceColumn="AlmDokter" DataSetColumn="AlmDokter" />
+              <Mapping SourceColumn="TelpDokter" DataSetColumn="TelpDokter" />
+              <Mapping SourceColumn="KodeJadwal" DataSetColumn="KodeJadwal" />
+              <Mapping SourceColumn="Hari" DataSetColumn="Hari" />
+              <Mapping SourceColumn="JamMulai" DataSetColumn="JamMulai" />
+              <Mapping SourceColumn="JamSelesai" DataSetColumn="JamSelesai" />
+              <Mapping SourceColumn="NamaPoli" DataSetColumn="NamaPoli" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="POLIKLINIKDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="POLIKLINIKDataSet2" msprop:Generator_UserDSName="POLIKLINIKDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="JadwalDokterPoli" msprop:Generator_TableClassName="JadwalDokterPoliDataTable" msprop:Generator_TableVarName="tableJadwalDokterPoli" msprop:Generator_TablePropName="JadwalDokterPoli" msprop:Generator_RowDeletingName="JadwalDokterPoliRowDeleting" msprop:Generator_RowChangingName="JadwalDokterPoliRowChanging" msprop:Generator_RowEvHandlerName="JadwalDokterPoliRowChangeEventHandler" msprop:Generator_RowDeletedName="JadwalDokterPoliRowDeleted" msprop:Generator_UserTableName="JadwalDokterPoli" msprop:Generator_RowChangedName="JadwalDokterPoliRowChanged" msprop:Generator_RowEvArgName="JadwalDokterPoliRowChangeEvent" msprop:Generator_RowClassName="JadwalDokterPoliRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodeDokter" msprop:Generator_ColumnVarNameInTable="columnKodeDokter" msprop:Generator_ColumnPropNameInRow="KodeDokter" msprop:Generator_ColumnPropNameInTable="KodeDokterColumn" msprop:Generator_UserColumnName="KodeDokter">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KodePoli" msprop:Generator_ColumnVarNameInTable="columnKodePoli" msprop:Generator_ColumnPropNameInRow="KodePoli" msprop:Generator_ColumnPropNameInTable="KodePoliColumn" msprop:Generator_UserColumnName="KodePoli">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NmDokter" msprop:Generator_ColumnVarNameInTable="columnNmDokter" msprop:Generator_ColumnPropNameInRow="NmDokter" msprop:Generator_ColumnPropNameInTable="NmDokterColumn" msprop:Generator_UserColumnName="NmDokter">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AlmDokter" msprop:Generator_ColumnVarNameInTable="columnAlmDokter" msprop:Generator_ColumnPropNameInRow="AlmDokter" msprop:Generator_ColumnPropNameInTable="AlmDokterColumn" msprop:Generator_UserColumnName="AlmDokter">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TelpDokter" msprop:Generator_ColumnVarNameInTable="columnTelpDokter" msprop:Generator_ColumnPropNameInRow="TelpDokter" msprop:Generator_ColumnPropNameInTable="TelpDokterColumn" msprop:Generator_UserColumnName="TelpDokter">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KodeJadwal" msprop:Generator_ColumnVarNameInTable="columnKodeJadwal" msprop:Generator_ColumnPropNameInRow="KodeJadwal" msprop:Generator_ColumnPropNameInTable="KodeJadwalColumn" msprop:Generator_UserColumnName="KodeJadwal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Hari" msprop:Generator_ColumnVarNameInTable="columnHari" msprop:Generator_ColumnPropNameInRow="Hari" msprop:Generator_ColumnPropNameInTable="HariColumn" msprop:Generator_UserColumnName="Hari">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JamMulai" msprop:Generator_ColumnVarNameInTable="columnJamMulai" msprop:Generator_ColumnPropNameInRow="JamMulai" msprop:Generator_ColumnPropNameInTable="JamMulaiColumn" msprop:Generator_UserColumnName="JamMulai">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JamSelesai" msprop:Generator_ColumnVarNameInTable="columnJamSelesai" msprop:Generator_ColumnPropNameInRow="JamSelesai" msprop:Generator_ColumnPropNameInTable="JamSelesaiColumn" msprop:Generator_UserColumnName="JamSelesai">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NamaPoli" msprop:Generator_ColumnVarNameInTable="columnNamaPoli" msprop:Generator_ColumnPropNameInRow="NamaPoli" msprop:Generator_ColumnPropNameInTable="NamaPoliColumn" msprop:Generator_UserColumnName="NamaPoli">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

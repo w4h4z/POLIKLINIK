@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1E6FB69-DC0F-4A3F-A45F-AB15CA274763}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>POLIKLINIK.My.MyApplication</StartupObject>
+    <RootNamespace>POLIKLINIK</RootNamespace>
+    <AssemblyName>POLIKLINIK</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>POLIKLINIK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>POLIKLINIK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Nav.Designer.vb">
+      <DependentUpon>Admin_Nav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Nav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database.vb" />
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POLIKLINIKDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POLIKLINIKDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Recapt.Designer.vb">
+      <DependentUpon>Recapt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recapt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin_Nav.resx">
+      <DependentUpon>Admin_Nav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recapt.resx">
+      <DependentUpon>Recapt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="POLIKLINIKDataSet.xsc">
+      <DependentUpon>POLIKLINIKDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet.xss">
+      <DependentUpon>POLIKLINIKDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet1.xsc">
+      <DependentUpon>POLIKLINIKDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet1.xss">
+      <DependentUpon>POLIKLINIKDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet2.xsc">
+      <DependentUpon>POLIKLINIKDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet2.xss">
+      <DependentUpon>POLIKLINIKDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet3.xsc">
+      <DependentUpon>POLIKLINIKDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet3.xss">
+      <DependentUpon>POLIKLINIKDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet4.xsc">
+      <DependentUpon>POLIKLINIKDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet4.xss">
+      <DependentUpon>POLIKLINIKDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet5.xsc">
+      <DependentUpon>POLIKLINIKDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet5.xss">
+      <DependentUpon>POLIKLINIKDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet6.xsc">
+      <DependentUpon>POLIKLINIKDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet6.xss">
+      <DependentUpon>POLIKLINIKDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet7.xsc">
+      <DependentUpon>POLIKLINIKDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet7.xss">
+      <DependentUpon>POLIKLINIKDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet8.xsc">
+      <DependentUpon>POLIKLINIKDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="POLIKLINIKDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POLIKLINIKDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POLIKLINIKDataSet8.xss">
+      <DependentUpon>POLIKLINIKDataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

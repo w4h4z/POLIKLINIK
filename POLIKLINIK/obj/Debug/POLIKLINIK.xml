@@ -1,0 +1,831 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+POLIKLINIK
+</name>
+</assembly>
+<members>
+<member name="T:POLIKLINIK.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:POLIKLINIK.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:POLIKLINIK.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.DetailBiayaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.DokterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.JadwalPraktekDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.JenisBiayaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.ObatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PasienDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PegawaiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PemeriksaanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PendaftaranDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PoliklinikDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.ResepDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.DetailBiayaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.DokterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.JadwalPraktekRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.JenisBiayaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.ObatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PasienRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PegawaiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PemeriksaanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PendaftaranRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PoliklinikRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.ResepRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.DetailBiayaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.DokterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.JadwalPraktekRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.JenisBiayaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.ObatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PasienRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PegawaiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PemeriksaanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PendaftaranRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.PoliklinikRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet.ResepRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.DetailBiayaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.DokterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.JadwalPraktekTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.JenisBiayaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.ObatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.PasienTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.PegawaiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.PemeriksaanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.PendaftaranTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.PoliklinikTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.ResepTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1.DokterAndPoliDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1.DokterAndPoliRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1.DokterAndPoliRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.DokterAndPoliTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2.JadwalDokterPoliDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2.JadwalDokterPoliRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2.JadwalDokterPoliRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.JadwalDokterPoliTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3.PendaftaranViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3.PendaftaranViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3.PendaftaranViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.PendaftaranViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4.PemeriksaanPasienDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4.PemeriksaanPasienRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4.PemeriksaanPasienRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.PemeriksaanPasienTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5.ResepObatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5.ResepObatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5.ResepObatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.ResepObatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6.BayarViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6.BayarViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6.BayarViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.BayarViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7.RecaptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7.RecaptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7.RecaptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.RecaptTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8.BayarViewwDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8.BayarViewwRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8.BayarViewwRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.BayarViewwTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(POLIKLINIK.POLIKLINIKDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(POLIKLINIK.POLIKLINIKDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(POLIKLINIK.POLIKLINIKDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.UpdateAll(POLIKLINIK.POLIKLINIKDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POLIKLINIK.POLIKLINIKDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
